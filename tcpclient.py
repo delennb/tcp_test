@@ -30,7 +30,7 @@ try:
         # print >>sys.stderr, 'received "%s"' % data
         print( 'received "%s"' % data, file=sys.stderr)
         # print(data.decode(encoding='utf-8', errors='strict'))
-        print(codecs.decode(data, "hex_codec"))
+        # print(codecs.decode(data, "hex_codec"))
 
 finally:
     # print >>sys.stderr, 'closing socket'
